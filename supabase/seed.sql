@@ -1,0 +1,3 @@
+-- Development seed file.
+-- User-owned rows are intentionally not seeded here because they must reference
+-- real auth.users records. Create test users through the app or Supabase Studio.

@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "RN Supabase Starter",
+    "slug": "react-native-supabase-starter",
+    "scheme": "rnssupabase",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to select a profile image."
+        }
+      ],
+      "expo-sqlite"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.rnsupabasestarter"
+    },
+    "android": {
+      "package": "com.example.rnsupabasestarter"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
